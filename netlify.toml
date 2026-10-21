@@ -1,0 +1,54 @@
+[build]
+  command = "node build.mjs"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/editor"
+  to = "/editor/"
+  status = 301
+
+[[redirects]]
+  from = "/editor/"
+  to = "/editor/admin.html"
+  status = 200
+
+[[redirects]]
+  from = "/api/editor/verify-password"
+  to = "/.netlify/functions/verify-password"
+  status = 200
+
+[[redirects]]
+  from = "/api/editor/publish"
+  to = "/.netlify/functions/publish"
+  status = 200
+
+[[redirects]]
+  from = "/api/editor/totp-setup"
+  to = "/.netlify/functions/totp-setup"
+  status = 200
+
+[[redirects]]
+  from = "/api/editor/totp-enroll"
+  to = "/.netlify/functions/totp-enroll"
+  status = 200
+
+[[redirects]]
+  from = "/api/editor/verify-totp"
+  to = "/.netlify/functions/verify-totp"
+  status = 200
+
+[[redirects]]
+  from = "/api/editor/session"
+  to = "/.netlify/functions/session"
+  status = 200
+
+[[redirects]]
+  from = "/api/editor/logout"
+  to = "/.netlify/functions/logout"
+  status = 200

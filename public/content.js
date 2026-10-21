@@ -33,8 +33,8 @@ window.INITIAL_CONTENT = {
     logo: { src: "assets/1bace9ce0df338b4.webp", alt: "Dr. MD Abdullah, Neurosurgeon, Brain and Spine Specialist", fit: "contain", x: 50, y: 50 },
     guinness: { src: "assets/8ab6c70665caa5a2.webp", alt: "Guinness World Records certificate", fit: "contain", x: 50, y: 50 },
     aiCertificate: { src: "assets/619d4a8811fbbed9.webp", alt: "Certificate of Completion — AI in Healthcare", fit: "contain", x: 50, y: 50 },
-    drnbCertificate: { src: "assets/932537237798802e.webp", alt: "Doctorate National Board — Neuro Surgery", fit: "contain", x: 50, y: 50 },
-    fellowshipCertificate: { src: "assets/8f552aa3d94a0a83.webp", alt: "Fellowship in Minimally Access and Advanced Spine Surgery", fit: "contain", x: 50, y: 50 },
+    drnbCertificate: { src: "assets/8f552aa3d94a0a83.webp", alt: "Doctorate National Board — Neuro Surgery", fit: "contain", x: 50, y: 50 },
+    fellowshipCertificate: { src: "assets/932537237798802e.webp", alt: "Fellowship in Minimally Access and Advanced Spine Surgery", fit: "contain", x: 50, y: 50 },
     caseNerve: { src: "assets/case-nerve-blocks.jpg", alt: "Fluoroscopic image showing a nerve block procedure", fit: "contain", x: 50, y: 50 },
     caseVertebroplasty: { src: "assets/case-vertebroplasty.jpg", alt: "Spine imaging before and after vertebroplasty for a D12 fracture", fit: "contain", x: 50, y: 50 },
     caseMinimallyInvasive: { src: "assets/case-minimally-invasive.jpg", alt: "Clinical photographs of a minimally invasive spine surgery", fit: "contain", x: 50, y: 50 },
@@ -51,6 +51,12 @@ window.INITIAL_CONTENT = {
     ["Observership in Vascular, Endovascular and Interventional Neurosurgery", "June 2026 – July 2026", "Amrita Institute of Medical Sciences (AIMS), Kochi, Kerala"],
     ["Doctorate of the National Board in Neurosurgery (DrNB)", "June 2018 – June 2024", "Yashoda Hospital (NBEMS), Hyderabad, Telangana"],
     ["Bachelor of Medicine and Bachelor of Surgery (MBBS)", "2009 – 2015", "Rangaraya Medical College (NTR University), Kakinada, Andhra Pradesh"]
+  ],
+  certificates: [
+    ["Guinness World Records", "guinness"],
+    ["AI in Healthcare", "aiCertificate"],
+    ["Fellowship in Advanced Spine Surgery", "fellowshipCertificate"],
+    ["Doctorate National Board — Neurosurgery", "drnbCertificate"]
   ],
   publications: [
     ["Surgical Management of an Atlanto-axial Dislocation in Morquio Syndrome with C1–C2 Sublaminar Wiring", "Dalvin Thomas, Md. Abdullah, Sajesh K. Menon, Pararathu Viswanathan Sreekesh", "Journal of Spinal Surgery", "June 30, 2026"],
