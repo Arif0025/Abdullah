@@ -14,11 +14,6 @@
   status = 301
 
 [[redirects]]
-  from = "/editor/"
-  to = "/editor/admin.html"
-  status = 200
-
-[[redirects]]
   from = "/api/editor/verify-password"
   to = "/.netlify/functions/verify-password"
   status = 200
